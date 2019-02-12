@@ -18,8 +18,10 @@
 # This section should be the only section of the script which requires manual changes 
 # for future updates and includes:
 #   loading packages
+source("code/packages.R")
 #   setting filepaths and extract dates
 #   functions (defined here or sourced from another file)
+source("code/functions.R")
 #   setting plot parameter
 #   specifying codes (e.g. ICD-10 codes)
 
